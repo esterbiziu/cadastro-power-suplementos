@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+body{
+  background-image: url(img/Fundo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: black;
+}
+
+.header{
+  margin: 20px 0px 40px 30px;
+}
+
+img{
+  
+  max-width: 20%;
+  max-height: 20%;
+}
+
+h3{
+  margin-bottom: 30px;
+}
+
+.btn{
+  background-color: white;
+  color: black;
+}
+
+.btn:hover{
+  background-color: rgb(86, 0, 112);
+  color: white;
+  font-weight: medium;
+  transition: 400ms;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+
+
+.campo{
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+form{
+  backdrop-filter: blur(15px);
+  background-color: rgba(112, 38, 102, 0.281);
+  padding: 10px 30px 30px 30px;
+  border-radius: 20px;
+  margin-bottom: 45px;
+  color: white;
+  border: 4px solid rgba(128, 0, 128, 0.445);
+  box-shadow: rgba(255, 255, 255, 0.212) 0px 8px 24px;
+}
